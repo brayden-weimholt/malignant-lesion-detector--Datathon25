@@ -1,4 +1,6 @@
 ﻿# Datathon25
+Malignant Melanoma Detector
+Lucas Chin, Daanesh Bogale, Tiffany Lai, Brayden Weimholt
 
 # References
 International Skin Imaging Collaboration. SLICE-3D 2024 Challenge Dataset. International Skin Imaging Collaboration https://doi.org/10.34970/2024-slice-3d (2024).
