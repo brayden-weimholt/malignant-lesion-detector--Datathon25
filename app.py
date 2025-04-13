@@ -36,9 +36,9 @@ def predict_out(prediction):
     probabilities = sigmoid(prediction).detach().numpy()
     benign_prob, malignant_prob = float(probabilities[0][0]), float(1 - probabilities[0][0])
     if benign_prob > malignant_prob:
-        return {"class": "benign", "probability": benign_prob}
+        return {"class": "benign"}
     else:
-        return {"class": "malignant", "probability": malignant_prob}
+        return {"class": "malignant"}
 
 @app.route('/', methods=['GET', 'POST'])
 def user_upload():

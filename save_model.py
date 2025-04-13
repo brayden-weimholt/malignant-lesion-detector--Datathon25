@@ -1,16 +1,11 @@
 import torch
 import torchvision.models as models
 import torch.nn as nn
+import pickle
 
-model = models.resnet18(pretrained=True)
-num_ftrs = model.fc.in_features
-model.fc = nn.Sequential(
-    nn.Linear(num_ftrs, 512),
-    nn.ReLU(),
-    nn.Dropout(0.7),
-    nn.Linear(512, 1)
-)
-
+model_pkl_path = "model.pkl"
+with open(model_pkl_path, 'rb') as file:
+    model = pickle.load(file)
 
 model_save_path = 'finetuned_model.pth'
 
