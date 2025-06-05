@@ -3,6 +3,24 @@ Malignant Melanoma Detector
 
 Lucas Chin, Daanesh Bogale, Tiffany Lai, Brayden Weimholt
 
+This project was developed as part of a 24-hour datathon. Our goal was to build a deep learning model capable of classifying lesion images into different diagnostic categories using a convolutional neural network (CNN). We explored the data, engineered features, trained models, and evaluated performance under tight time constraints.
+
+The core model is a CNN trained on preprocessed lesion image data. While the current model.ipynb reflects our architecture exploration and experimentation, the final model used during our presentation is not fully captured in this version.
+
+**Note**: The notebook may throw an error due to differences between the current model file and the one used during the final presentation. Rather than retrain and overwrite, we’ve opted to preserve the current state and attach our final presentation slides for full context.
+
+My Key Contributions:
+
+Data Cleaning, Wrangling & EDA: Explored class balance, pixel intensity distributions, and label mappings. See data_analysis.ipynb.
+Modeling: Iteratively tested CNN architectures; visualized feature maps; evaluated performance using AUC and confusion matrices.
+Validation: Used logistic regression on CNN-derived features to support statistical significance claims.
+
+You can view our final model results and rationale here: [View Final Datathon 25Presentation (PDF)](./Datathon25.pdf). This includes slides detailing:
+	•	Final model architecture
+	•	Evaluation metrics
+	•	Key insights and visualizations
+
+
 # References
 International Skin Imaging Collaboration. SLICE-3D 2024 Challenge Dataset. International Skin Imaging Collaboration https://doi.org/10.34970/2024-slice-3d (2024).
 
