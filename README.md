@@ -15,7 +15,7 @@ Data Cleaning, Wrangling & EDA: Explored class balance, pixel intensity distribu
 Modeling: Iteratively tested CNN architectures; visualized feature maps; evaluated performance using AUC and confusion matrices.
 Validation: Used logistic regression on CNN-derived features to support statistical significance claims.
 
-You can view our final model results and rationale here: [View Final Datathon 25Presentation (PDF)](./Datathon25.pdf). This includes slides detailing:
+You can view our final model results and rationale here: [View Final Datathon 25 Presentation (PDF)](Datathon25.pdf). This includes slides detailing:
 	•	Final model architecture
 	•	Evaluation metrics
 	•	Key insights and visualizations
